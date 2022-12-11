@@ -9,6 +9,7 @@ When calculating the basal metabolic rate, depending on gender, the factor 1 for
 
 ### PAL-value
 | Physical activity per day | PAL value |
+|---|---|
 | Frail, immobile, bedridden people (exclusively sedentary or lying down lifestyle) | 1.2- 1.3 |
 | Office workers, precision mechanics (exclusively sedentary lifestyle with little or no strenuous leisure activity) | 1.4- 1.5 |
 | laboratory workers, students, assembly line workers, teachers (sedentary work, at times also additional energy expenditure for walking and standing activities, little or no strenuous leisure activity) | 1.6- 1.7 |
