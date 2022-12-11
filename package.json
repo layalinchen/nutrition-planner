@@ -1,0 +1,28 @@
+{
+  "name": "nutrition-planner",
+  "version": "1.0.0",
+  "description": "This app creates a weekly nutrition plan based on individual nutrient and energy needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layalinchen/nutrition-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/layalinchen/nutrition-planner/issues"
+  },
+  "homepage": "https://github.com/layalinchen/nutrition-planner#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

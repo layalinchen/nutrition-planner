@@ -1,0 +1,69 @@
+:root {
+    --separator-light: rbga(0,0,0,0.1);
+    --separator-mid: rgba(0,0,0,0.4);
+
+    --border-radius-lg: 12px;
+    --border-radius-md: 7px;
+
+    --drop-shadow-sm: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    --drop-shadow-md:  rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    --drop-shadow-lg: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    --drop-shadow-hv: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+
+}
+
+#hero {
+    width: 50vw;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--drop-shadow-sm);
+}
+
+
+
+.card-img {
+    width: 50%;
+    border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
+}
+
+
+.card-text {
+    padding: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 1em;
+
+}
+
+.pill {
+    background-color: var(--separator-mid);
+    padding: 0.5em;
+    border-radius: var(--border-radius-md);
+
+}
+
+
+.pill > label {
+    width: 3em;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
